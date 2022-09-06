@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #cccccc;
+  font-family: 'Montserrat', sans-serif;
+}
+.encabezado{
+    background-color:rgb(07, 37, 63) ;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    color: white;
+}
+.menu {
+  background-color: #cccccc;
+  font-family: arial;
+  list-style: none;
+  padding: 0%;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+.menu li a {
+  text-decoration: none;
+  color: rgb(07, 37, 63);
+  padding: 20px;
+  display: block;
+}
+.menu li {
+  display: inline-block;
+  text-align: center;
+}
+
+.subtitulo {
+  text-align: center;
+  color: rgb(07, 37, 63);
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+.razon--social {
+  color:  rgb(07, 37, 63);
+  text-align: center;
+}
+.mail--empresa {
+  color:  rgb(07, 37, 63);
+  text-align: center;
+}
+.tituloproductos {
+  text-align: center;
+  color: white;
+  background-color: rgb(07, 37, 63);
+}
+.potescomunes {
+  text-align: center;
+}
+.potesfacetados {
+  text-align: center;
+}
+.vasos {
+  text-align: center;
+}
+ul li {
+  color: rgb(07, 37, 63);
+  text-align: center;
+}
+.imagen {
+  width: 100px;
+  height: 100px;
+}
+
+.imagenes--contenedor {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.seccion{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.contenedor{
+  max-width: 1300px;
+  margin: auto;
+}
+.principal-componente{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.principal-izquierda{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 40%;
+}
+.principal-derecha{
+  max-width: 40%;
+
+}
+.titulo{
+    margin-bottom: 24px;
+}
+.parrafo{
+    margin-bottom: 32px;
+}
+.titulo-2{
+font-size: 48px;
+line-height: 58px;
+font-weight: 700;
+}
+.parrafo-1{
+  font-size:20px;
+  line-height:32px ;
+  font-weight: 400;
+}
+
+.imagen--derecha{
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  align-items:right ;
+    
+    
+}
+.imagen--izquierda{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    max-width: 60%;
+   
+ 
+}
+.segunda--imagen{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    max-width: 60%;
+}
+
+.imagenes--componente{
+    flex:auto;
+}
+.titulocontacto {
+  text-align: center;
+  color:  rgb(07, 37, 63);
+  background-color: #cccccc;
+}
+.menucontacto {
+
+  font-family: arial;
+  list-style: none;
+  padding: 0%;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center; }
+  .menucontacto li a {
+    text-decoration: none;
+    color:#cccccc;
+    padding: 20px;
+    display: block;
+  }
+  .menucontacto li {
+    display: inline-block;
+    text-align: center;
+  }
+  .contacto{
+    background-image: url(/imagenes/36779.jpg);
+    background-size: 100vh 100vh;
+    text-align: center;
+    background-attachment: fixed;
+    margin: 0;
+  }
+  .formulario{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+  }
+  .titulocontacto2{
+    color: #fff;
+    background: rgba(0, 0, 0, 1);
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+.formularios {
+
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+}
+.cajadetexto{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+#boton{
+  padding: 20px;
+  font-size: 15px;
+}
+.titulonosotros .titulo5{
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .parrafo2{
+    font-size:20px;
+    line-height:32px ;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 40%;
+  }
+
+.titulonosotros{
+  text-align: center;
+}
+.imagen-derecha .imgderecha{
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 1px;
+  }
+.fondonosotros{
+  background-image: url(/imagenes/depositphotos_31906327-stock-photo-grey-background.jpg);
+  background-size: 100vh 100vh;
+  text-align: center;
+  background-attachment: fixed;
+  margin: 0;
+}
+.menunosotros{
+  font-family: arial;
+  list-style: none;
+  padding: 0%;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center; }
+  .menunosotros li a {
+    text-decoration: none;
+    color:rgb(07, 37, 63);
+    padding: 20px;
+    display: block;
+  }
+  .menunosotros li {
+    display: inline-block;
+    text-align: center;
+   }
+   .tituloenvios {
+    text-align: center;
+    color:  #cccccc;
+    background-color:  rgb(07, 37, 63)
+  }
+   .menuenvios {
+    font-family: arial;
+    list-style: none;
+    padding: 0%;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center; }
+    .menuenvios li a {
+      text-decoration: none;
+      color:rgb(07, 37, 63);
+      padding: 20px;
+      display: block;
+    }
+    .menuenvios li {
+      display: inline-block;
+      text-align: center; }
+      .envios{
+        background-image: url(/imagenes/depositphotos_31906327-stock-photo-grey-background.jpg);
+        background-size: 100vh 100vh;
+        text-align: center;
+        background-attachment: fixed;
+        margin: 0; }
+        .formularioenvios{
+          width: 450px;
+          margin: auto;
+          background: rgba(0, 0, 0, 0.3);
+          padding: 10px 20px;
+          box-sizing: border-box;
+          margin-top: 20px;
+          border-radius: 7px; 
+        }
+          .cajadetextoenvios{
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 7px;
+            box-sizing: border-box;
+            min-height: 100px;
+            max-height: 200px;
+            max-width: 100%; }
